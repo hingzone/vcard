@@ -54,6 +54,7 @@ img {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
 .intro .card {
   margin-top: 0;
 }
@@ -65,10 +66,12 @@ img {
   padding: 10px 20px;
   border-radius: 5px 5px 0 0;
 }
+
 .top h1 {
   font-size: 1.25rem;
   margin-bottom: 0;
 }
+
 .top h2 {
   font-size: 1rem;
   padding-bottom: 20px;
@@ -77,13 +80,16 @@ img {
   color: #828282;
   border-bottom: 1px dotted #ccc;
 }
+
 .profile {
   position: absolute;
 }
+
 .top + .card {
   border-radius: 0 0 5px 5px;
   box-shadow: none;
 }
+
 .card {
   background: #fff;
   box-sizing: border-box;
@@ -91,18 +97,22 @@ img {
   border-radius: 5px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
+
 .card h2 {
   font-size: 1.25rem;
 }
+
 .card div {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .card div + h2 {
   border-top: 1px dotted #ccc;
   padding-top: 20px;
 }
+
 .card h3 {
   font-size: 1rem;
   margin-top: 0;
@@ -110,16 +120,20 @@ img {
   margin-right: 20px;
   white-space: nowrap;
 }
+
 .card h3 + p {
   margin-bottom: 10px;
 }
+
 .card p {
   color: #828282;
   margin-top: 0;
 }
+
 .card a {
   color: #00b6b1;
 }
+
 .card a:hover {
   opacity: 0.5;
 }
@@ -129,8 +143,8 @@ img {
   margin-bottom: 10px;
 }
 
-.icon svg {
-  margin-right: 5px;
+.icon a {
+  margin-left: 5px;
 }
 
 .icon div {
