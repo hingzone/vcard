@@ -256,16 +256,10 @@ footer a {
   .background-text {
     font-size: 250px;
   }
-  .card {
-    margin-top: 180px;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
   .background-text {
     font-size: 300px;
-  }
-  .card {
-    margin-top: 200px;
   }
 }
