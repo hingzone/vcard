@@ -140,7 +140,7 @@ img {
 
 .icon {
   align-items: center !important;
-  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .icon a {
@@ -150,6 +150,7 @@ img {
 .icon div {
   align-items: center !important;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .icon p {
