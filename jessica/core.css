@@ -1,0 +1,269 @@
+body {
+  background: var(--global-color-background);
+  color: var(--global-color-heading);
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang,Microsoft YaHei,Source Han Sans TC,Noto Sans CJK TC,WenQuanYi Micro Hei,sans-serif;
+  border-top: 9px solid var(--global-color-primary);
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, var(--global-color-primary) 0%, var(--global-color-background-alt) 100%);
+  line-height: 1.4;
+}
+
+.background-text {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  font-size: 120px;
+  font-family: serif;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: rgba(0,182,177,0.1);
+  width: 95%;
+  overflow: hidden;
+}
+
+section {
+  width: 625px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--global-color-primary);
+}
+
+img {
+  max-width: 100%;
+}
+
+.intro {
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.intro .card {
+  margin-top: 0;
+}
+
+.top {
+  position: relative;
+  margin-top: 200px;
+  background: var(--global-color-white);
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.top h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.top h2 {
+  font-size: 1rem;
+  padding-bottom: 20px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: var(--global-color-body);
+  border-bottom: 1px dotted var(--global-color-border);
+}
+
+.profile {
+  position: absolute;
+}
+
+.top + .card {
+  border-radius: 0 0 5px 5px;
+  box-shadow: none;
+}
+
+.card {
+  background: var(--global-color-white);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  font-size: 1.25rem;
+}
+
+.card div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card div + h2 {
+  border-top: 1px dotted var(--global-color-border);
+  padding-top: 20px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.card h3 + p {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--global-color-body);
+  margin-top: 0;
+}
+
+.card a {
+  color: var(--global-color-primary);
+}
+
+.card a:hover {
+  opacity: 0.5;
+}
+
+.icon {
+  align-items: center !important;
+  flex-wrap: wrap;
+}
+
+.icon a {
+  margin-left: 5px;
+}
+
+.icon div {
+  align-items: center !important;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.icon p {
+  line-height: 1;
+  margin-bottom: 0 !important;
+}
+
+.file {
+  text-align: center;
+}
+
+.link h2,
+.social h2 {
+  font-size: 1.25rem;
+}
+
+.link {
+  text-align: center;
+}
+.link a {
+  display: block;
+  background: var(--global-color-white);
+  color: var(--global-color-primary);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.link a:hover {
+  background: var(--global-color-primary);
+  color: var(--global-color-white);
+  border-color: var(--global-color-primary);
+}
+.link a + h2 {
+  margin-top: 30px;
+}
+
+.social {
+  text-align: center;
+}
+.social a {
+  color: var(--global-color-primary);
+}
+.social a:not(:last-child) {
+  margin-right: 5px;
+}
+.social a:hover {
+  opacity: 0.5;
+}
+.social svg {
+  font-size: 36px;
+}
+
+.media > * {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0 none;
+}
+
+footer {
+  text-align: center;
+  color: var(--global-color-body);
+}
+footer a {
+  color: var(--global-color-primary);
+}
+
+@media only screen and (max-width: 520px) {
+  .top {
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+  .profile {
+    background: var(--global-color-white);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: calc(50% - 50px);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  }
+}
+
+@media only screen and (min-width: 521px) {
+  .profile {
+    width: auto;
+    height: 300px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .background-text {
+    font-size: 220px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .background-text {
+    font-size: 250px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .background-text {
+    font-size: 300px;
+  }
+}
