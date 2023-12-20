@@ -9,4 +9,4 @@
   --global-color-white: #fff;
 }
 
-@import "core.css";
+@import "./core.css";
