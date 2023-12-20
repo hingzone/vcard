@@ -1,0 +1,11 @@
+:root {
+  --global-color-primary: #FF6778;
+  --global-color-secondary: #ffe4e2;
+  --global-color-background: #e62148;
+  --global-color-background-alt: #ffe4e2;
+  --global-color-background-text: rgba(255, 184, 198, 0.2);
+  --global-color-heading: #424242;
+  --global-color-body: #828282;
+  --global-color-border: #ccc;
+  --global-color-white: #fff;
+}
