@@ -1,12 +1,2 @@
-:root {
-  --global-color-primary: #00b6b1;
-  --global-color-secondary: #ffc87d;
-  --global-color-background: #e4f8f3;
-  --global-color-background-alt: #a5e9d7;
-  --global-color-heading: #424242;
-  --global-color-body: #828282;
-  --global-color-border: #ccc;
-  --global-color-white: #fff;
-}
-
+@import "./root.css";
 @import "./core.css";
