@@ -1,2 +1,7 @@
 @import "./root.css";
 @import "../core.css";
+
+/* Custom CSS */
+footer {
+  color: var(--global-color-white);
+}
